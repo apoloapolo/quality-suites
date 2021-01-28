@@ -1,2 +1,5 @@
 # Projeto Quality Suítes
  Projeto de um sistema de reserva de hotel para a disciplina de Introdução à Programação do curso de Análise e Desenvolvimento de Sistemas no IFPE(Instituto Federal de Pernambuco) Campus Paulista feito em parceria com a, também aluna do curso, Sabrina.
+# Descrição do Projeto
+ Na pasta "codigo-py" existe o script escrito em Python e uma imagem usada no projeto. Basicamente, o sistema recebe os dados do usuário, que por sua vez, recebe do cliente e emite um recibo de reserva contendo, além das informações do cliente, valores da reserva. O código ainda envia um e-mail contendo as mesmas informações do recibo para o cliente. O envio foi possível graças a biblioteca "smtplib" do Python. Pouquíssimos tratamentos de erros e exceções foram feitos, pois, essa foi a nossa primeira cadeira de programação do curso. Fora isso, o código funciona, na medida do possível, porém não é possível receber o recibo por e-mail pois foi ocultada a senha do e-mail que envia a mensagem, sendo necessário configurar o SMTP em um e-mail e inserir seus dados no código.
+
